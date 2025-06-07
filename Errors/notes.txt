@@ -1,0 +1,18 @@
+Understanding Errors in JavaScript 
+
+Types of Errors -> 
+1) Syntax Error : Syntax errors occur when the code violates JavaScript’s rules . 
+2) RunTime Error : Runtime errors happen while the code is running. These errors occur when the program tries to perform an invalid operation, like accessing an undefined variable or calling a non-existent function.
+3) Logical Error : Logic errors don’t throw errors, but they make your program behave unexpectedly .
+
+
+Handling Error with try...catch 
+JavaScript provides the try catch block to handle errors gracefully . Instead of letting your program crash , we can catch the error and provide friendly message or fallback behaviour .
+try : Contains code that might throw an error
+catch : Handles the Error if one occur 
+
+Example : Using try...catch 
+
+
+Using finally for cleanup 
+The finally block runs after try and catch , whether an error occured or not . We can use it for cleanup task like closing files or clearing timers 

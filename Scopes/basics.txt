@@ -1,0 +1,28 @@
+Second Pillar of JavaScript : Scopes 
+
+Scopes : It actually represents visibility : variables and functions 
+Scopes tell you where the things are visible 
+
+Everything : variables and functions 
+Everything inside your code will be used in one of the following 2 ways : 
+ -> Either it will be getting some values assigned to it .
+ -> Or Some values will be retrieved from it .
+
+
+## Question : Do you think JavaScript is Compiled or Intrepreted ? 
+
+What is Compiled language ? There is Something as Compiler : It read whole code altogether it checks if there is some error in your code . And eventually throws all your error , if no error and allows you to run the code .
+
+What is Intrepreted language ? Intrepreter : It start reading the code line by line and if the current line has error than it does not move forward .
+
+So JavaScript is Compiled or Intrepreter ?
+
+What is Scope ? 
+
+Scope determines where variable can be accessed in your program . Think of it like a boundary . Variable defined in 1 part of your code may not be visible elsewhere . 
+
+There are several types of scope in JavaScript :  
+1) Global Scope : A global variable is declared outside any function or block , making it available everywhere in your code . Be Careful with global variables : too many of them can make your code hard to manage . 
+2) Local Scope (including fucntion scope) : 
+3) Block-level scope (using let and const )
+

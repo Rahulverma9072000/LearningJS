@@ -1,0 +1,8 @@
+Basics String Methods 
+
+length()
+indexOf() 
+toUpperCase()
+toLowerCase()
+slice()
+split()

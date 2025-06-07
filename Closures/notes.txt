@@ -1,0 +1,9 @@
+A closure happens when a function remembers variable from outer scope , even after that outer scope is finished executing . Closures are one of JavaScript's most powerfull features .
+ 
+ 
+Why are Closures Useful ?
+ 
+1) Encapsulation : Closures let you hide variables and fucntions inside other functions , exposing only what you need . 
+2) Data Persistence : Closures allow a function to "remember" the state of variables , even after it finishes running .
+ 
+Closures are used extensively in Productions

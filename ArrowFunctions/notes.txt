@@ -1,0 +1,26 @@
+Arrow Functions 
+
+Syntax of Arrow Fucntions : 
+Arrow Functions allows you to write shorter and cleaner functions 
+
+Key Syntax Rules :  
+1) Prantheses around parameters are optional if you have only 1 parameter . 
+2) Curly braces {} are optional if the functions has a single statement . The value of that statement is automatically returned . 
+3) If the function has multiple statements , use curly braces {} and an explicit return statement 
+4) If the fucntion takes no parameters , use empty parantheses () . 
+
+
+Difference between Normal Functions and Arrow Functions 
+While Arrow Functions provide a cleaner syntax , they behave differently from traditional functions in some key ways - particularly in how they handle  `this` keywords. 
+
+In JS , the 'this' keyword refers to the object that owns the function . With traditional functions , this changes based on how the function is called . However , arrow functions do not have this , they inherits this from the surrounding (lexical) context. 
+
+
+
+When to use Arrow Functions vs Traditional Functions 
+
+Arrow Functions                                                       Traditional Functions
+When you dont need this binding                                       When you need this to refer to the calling object . 
+For Simple, one-line functions                                        For Complex Functions with multiple statements 
+As callbacks in array methods(map , forEach)                          When Defining methods on an object
+

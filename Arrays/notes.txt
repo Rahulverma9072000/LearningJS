@@ -1,0 +1,12 @@
+Create and Using Arrays 
+An Array is a collection of values stored in a single variable. Each value is called an element , and each element has a position calles an index (Starting from 0 ).
+
+
+Common Array MEthods : 
+
+push() - Add elements to end 
+pop() -  Remove the last element
+shift() -  Remove the First ELement 
+unshift() - Add element to the beginings 
+splice() - Add/Remove Elements Anywhere 
+slice() - Create a new subarray 
